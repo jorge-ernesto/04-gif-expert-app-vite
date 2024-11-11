@@ -30,12 +30,15 @@ export const GifExpertApp = () => {
             {/* Evita usar 'index' como 'key' en React, ya que puede cambiar si se reordenan los elementos, causando problemas de rendimiento y renderizado incorrecto.
                 Es preferible utilizar un identificador único asociado a cada elemento, como el valor de 'category', para garantizar un comportamiento consistente. */}
             {
-                categories.map((category, index) => (
-                    <GifGrid
-                        key={category}
-                        category={category}
-                    />
-                ))
+                // eslint-disable-next-line no-unused-vars
+                categories.map((category, index) => {
+                    return (
+                        <GifGrid
+                            key={category}
+                            category={category}
+                        />
+                    )
+                })
             }
         </>
     );
