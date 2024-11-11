@@ -1,3 +1,8 @@
+import PropTypes from 'prop-types';
+
+/******************/
+
+// eslint-disable-next-line no-unused-vars
 export const GifItem = ({ title, url, id }) => {
 
     return (
@@ -6,4 +11,11 @@ export const GifItem = ({ title, url, id }) => {
             <p>{title}</p>
         </div>
     );
+}
+
+// Validar props
+GifItem.propTypes = {
+    title: PropTypes.string,
+    url: PropTypes.string,
+    id: PropTypes.string
 }
