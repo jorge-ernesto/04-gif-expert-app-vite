@@ -1,0 +1,6 @@
+---- Notas ----
+
+El curso fue modificado, es decir:
+
+    - SI se pudo terminar el proyecto antes de que el curso fuera modificado
+    - El enlace del codigo fuente en "0 RECURSOS" cambio completamente
